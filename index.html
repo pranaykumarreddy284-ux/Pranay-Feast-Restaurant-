@@ -1,0 +1,277 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pranay Feast Restaurant</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f5f5f5;
+    color:#333;
+}
+
+/* NAVBAR */
+header{
+    background:#111;
+    padding:15px 0;
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+.navbar{
+    width:90%;
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    color:#ff7b00;
+    font-size:26px;
+    font-weight:700;
+}
+
+.nav-links{
+    list-style:none;
+    display:flex;
+    gap:25px;
+}
+
+.nav-links a{
+    color:#fff;
+    text-decoration:none;
+}
+
+.nav-links a:hover{
+    color:#ff7b00;
+}
+
+/* HERO */
+.hero{
+    height:90vh;
+    background:url('https://images.unsplash.com/photo-1414235077428-338989a2e8c0') no-repeat center/cover;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:#fff;
+}
+
+.hero h1{
+    font-size:50px;
+}
+
+.hero p{
+    margin:15px 0;
+}
+
+.btn{
+    padding:12px 25px;
+    background:#ff7b00;
+    color:#fff;
+    text-decoration:none;
+    border-radius:30px;
+}
+
+/* SECTION */
+.section{
+    padding:70px 8%;
+}
+
+.section h2{
+    text-align:center;
+    margin-bottom:40px;
+    color:#ff7b00;
+}
+
+/* ABOUT */
+.about{
+    text-align:center;
+    max-width:800px;
+    margin:auto;
+    line-height:1.6;
+}
+
+/* MENU */
+.menu{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.menu-item{
+    background:#fff;
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.menu-item:hover{
+    transform:translateY(-5px);
+}
+
+.menu-item img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
+
+.menu-content{
+    padding:15px;
+}
+
+.price{
+    color:#ff7b00;
+    font-weight:600;
+}
+
+/* CONTACT */
+.contact{
+    background:#111;
+    color:#fff;
+}
+
+.contact-container{
+    max-width:600px;
+    margin:auto;
+}
+
+.contact form{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.contact input,
+.contact textarea{
+    padding:12px;
+    border:none;
+    border-radius:5px;
+}
+
+.contact button{
+    padding:12px;
+    background:#ff7b00;
+    color:#fff;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.contact button:hover{
+    background:#e66a00;
+}
+
+/* FOOTER */
+footer{
+    background:#000;
+    color:#fff;
+    text-align:center;
+    padding:15px;
+}
+
+@media(max-width:768px){
+    .hero h1{
+        font-size:32px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="navbar">
+<div class="logo">Pranay Feast</div>
+<ul class="nav-links">
+<li><a href="#">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#menu">Menu</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</div>
+</header>
+
+<section class="hero">
+<div>
+<h1>Welcome to Pranay Feast</h1>
+<p>Premium Dining Experience</p>
+<a href="#menu" class="btn">Explore Menu</a>
+</div>
+</section>
+
+<section class="section" id="about">
+<h2>About Us</h2>
+<p class="about">
+Royal Feast offers authentic Indian and international cuisine prepared by expert chefs.
+We focus on taste, hygiene, and premium service to give you a luxury dining experience.
+</p>
+</section>
+
+<section class="section" id="menu">
+<h2>Our Complete Menu (21 Items)</h2>
+
+<div class="menu">
+
+<!-- 21 MENU ITEMS -->
+
+<div class="menu-item"><img src="https://cdn.pixabay.com/photo/2020/03/13/20/16/paneer-tikka-4929034_1280.jpg"><div class="menu-content"><h3>Paneer Tikka</h3><p class="price">₹220</p></div></div>
+<div class="menu-item"><img src="https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec"><div class="menu-content"><h3>Chicken 65</h3><p class="price">₹250</p></div></div>
+<div class="menu-item"><img src="https://images.unsplash.com/photo-1544025162-d76694265947"><div class="menu-content"><h3>Veg Spring Rolls</h3><p class="price">₹180</p></div></div>
+<div class="menu-item"><img src="https://images.unsplash.com/photo-1601050690597-df0568f70950"><div class="menu-content"><h3>Tomato Soup</h3><p class="price">₹120</p></div></div>
+<div class="menu-item"><img src="https://images.unsplash.com/photo-1603894584373-5ac82b2ae398"><div class="menu-content"><h3>Butter Chicken</h3><p class="price">₹320</p></div></div>
+<div class="menu-item"><img src="https://img.freepik.com/premium-photo/plate-palak-paneer-vegetarian-dish-made-with-spinach-paneer-thick-curry-sauce_170984-22384.jpg?w=2000"><div class="menu-content"><h3>Palak Paneer</h3><p class="price">₹260</p></div></div>
+<div class="menu-item"><img src="https://static.vecteezy.com/system/resources/thumbnails/038/972/408/small_2x/ai-generated-indian-naan-bread-with-garlic-butter-on-wooden-table-photo.jpg"><div class="menu-content"><h3>Butter Naan</h3><p class="price">₹40</p></div></div>
+<div class="menu-item"><img src="https://images.unsplash.com/photo-1617196034796-73dfa7b1fd56"><div class="menu-content"><h3>Dal Fry</h3><p class="price">₹180</p></div></div>
+<div class="menu-item"><img src="https://images.unsplash.com/photo-1596797038530-2c107229654b"><div class="menu-content"><h3>Chicken Biryani</h3><p class="price">₹280</p></div></div>
+<div class="menu-item"><img src="https://img.freepik.com/premium-photo/indian-mutton-biryani-prepared-basmati-rice-served-with-yogurt-dip-moody-background-selective-focus_466689-53059.jpg?w=2000"><div class="menu-content"><h3>Mutton Biryani</h3><p class="price">₹350</p></div></div>
+<div class="menu-item"><img src="https://images.unsplash.com/photo-1589302168068-964664d93dc0"><div class="menu-content"><h3>Veg Biryani</h3><p class="price">₹220</p></div></div>
+<div class="menu-item"><img src="https://images.unsplash.com/photo-1605478371310-a9f1e96b4ff4"><div class="menu-content"><h3>Fried Rice</h3><p class="price">₹200</p></div></div>
+<div class="menu-item"><img src="https://images.unsplash.com/photo-1550547660-d9450f859349"><div class="menu-content"><h3>Cheese Burger</h3><p class="price">₹150</p></div></div>
+<div class="menu-item"><img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092"><div class="menu-content"><h3>Farmhouse Pizza</h3><p class="price">₹299</p></div></div>
+<div class="menu-item"><img src="https://1.bp.blogspot.com/-LYcQI0N-AqI/X1xEImFqeEI/AAAAAAABMOU/9eVwFCfTF4YzPBHBGf9EDX1ZwdHphyf0gCPcBGAsYHg/s1435/Screenshot_20200912-114344.jpg"><div class="menu-content"><h3>White Sauce Pasta</h3><p class="price">₹240</p></div></div>
+<div class="menu-item"><img src="https://www.goldnplump.com/sites/default/files/Grilled%20Mesquite%20Chicken%20Sandwich-0268.JPG"><div class="menu-content"><h3>Grilled Sandwich</h3><p class="price">₹120</p></div></div>
+<div class="menu-item"><img src="https://images.unsplash.com/photo-1499636136210-6f4ee915583e"><div class="menu-content"><h3>Ice Cream</h3><p class="price">₹90</p></div></div>
+<div class="menu-item"><img src="https://media.chefdehome.com/740/0/0/gulab-jamun/indian-gulab-jamun-chefdehome-1.jpg"><div class="menu-content"><h3>Gulab Jamun</h3><p class="price">₹80</p></div></div>
+<div class="menu-item"><img src="https://images.unsplash.com/photo-1572490122747-3968b75cc699"><div class="menu-content"><h3>Chocolate Milkshake</h3><p class="price">₹130</p></div></div>
+<div class="menu-item"><img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735"><div class="menu-content"><h3>Cold Coffee</h3><p class="price">₹110</p></div></div>
+<div class="menu-item"><img src="https://images.unsplash.com/photo-1553530666-ba11a7da3888"><div class="menu-content"><h3>Fresh Lime Juice</h3><p class="price">₹70</p></div></div>
+
+</div>
+</section>
+
+<!-- CONTACT SECTION AT LAST -->
+<section class="section contact" id="contact">
+<h2>Contact Us</h2>
+
+<div class="contact-container">
+<form>
+<input type="text" placeholder="Your Name" required>
+<input type="email" placeholder="Your Email" required>
+<textarea rows="5" placeholder="Your Message" required></textarea>
+<button type="submit">Send Message</button>
+</form>
+</div>
+
+</section>
+
+<footer>
+© 2026 Pranay Feast Restaurant | All Rights Reserved
+</footer>
+
+</body>
+</html>
