@@ -1,32 +1,27 @@
- Pranay Feast Restaurant Website
-Project Overview
+🍽️ Royal Feast Restaurant Website (HTML & CSS)
 
-Pranay Feast is a fully responsive restaurant website built using HTML and CSS only.
-This project showcases a professional restaurant layout including:
+This project is a Restaurant Website built using pure HTML and CSS.
+It is designed with a clean, modern, and professional layout similar to real restaurant websites.
 
-Hero Section
+✨ Features
 
-About Section
+Clean and modern UI design
 
-Complete Menu (21 Items)
+Built using only HTML5 and CSS3
 
-Contact Form
+Fully responsive layout (Desktop & Mobile friendly)
 
-Responsive Design
+Hero section with background image
 
-This project is suitable for college submission, beginner portfolio, or frontend practice.
+About section
 
- Features
+Complete Menu (21 food items with images)
 
- Modern UI Design
- 21 Menu Items with Images
- Same Image Size (Professional Layout)
- Responsive Grid Layout
- Hero Banner Section
- About Section
- Contact Form at Bottom
- Sticky Navigation Bar
- Clean and Organized Code
+Same-size professional image cards
+
+Contact form at the bottom
+
+Beginner-friendly frontend project
 
 🛠️ Technologies Used
 
@@ -34,59 +29,59 @@ HTML5
 
 CSS3
 
-Google Fonts (Poppins)
+Google Fonts
 
-Unsplash Images (for food images)
+Visual Studio Code
 
- Project Structure
+📂 Project Structure
+
 Royal-Feast-Restaurant/
 │
 ├── index.html
 └── README.md
 
- Menu Categories Included
+📸 Preview
 
-Starters
+Screenshot or live demo link can be added here.
 
-Main Course
+Example:
 
-Biryani
+<img src="screenshot.png" width="100%">
 
-Fast Food
 
-Desserts
+Or add GitHub Pages live link:
 
-Drinks
+Live Link: https://yourusername.github.io/restaurant-website/
 
-Total Items: 21
+🎯 Project Objective
 
- How to Run the Project
+Practice frontend web development
 
-Download or copy the project files.
+Improve HTML & CSS skills
 
-Save the file as index.html.
+Build a real-world restaurant website layout
 
-Open it in any browser (Chrome, Edge, Firefox).
+Create a portfolio-ready project
+
+Understand responsive grid design
+
+🚀 How to Run
+
+Download or clone the repository
+
+Open index.html in any web browser
+
+Explore the restaurant website
 
 No installation required.
 
- Responsive Design
+👤 Author
 
-The website is fully responsive and works on:
+PranayKumarReddy
+Frontend Developer | Web Enthusiast
 
-Desktop
+⚠️ Disclaimer
 
-Tablet
+This project is created for educational purposes only.
+All images are used from free image sources for learning practice.
 
-Mobile Devices
-
- Contact Section
-
-The contact form is included at the bottom of the page.
-(Note: It is a frontend-only form and does not store data.)
-
- Developed By
-
-PRANAY KUMAR REDDY
-Pranay Feast Restaurant Project
-Year: 2026
